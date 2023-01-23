@@ -1,5 +1,21 @@
-body {
-  background-color: red;
-}
+/* Error: Missing argument $height.
+ *     ,
+ * 28  | @mixin cover($height) {
+ *     |        ============== declaration
+ * ... |
+ * 95  |    @include cover() ;
+ *     |    ^^^^^^^^^^^^^^^^ invocation
+ *     '
+ *   assets\scss\style.scss 95:4  cover()
+ *   assets\scss\style.scss 95:4  root stylesheet */
 
-/*# sourceMappingURL=style.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Missing argument $height.\a     \2577 \a 28  \2502  @mixin cover($height) {\d\a     \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a... \2502 \a 95  \2502     @include cover() ;\d\a     \2502     ^^^^^^^^^^^^^^^^ invocation\a     \2575 \a   assets\\scss\\style.scss 95:4  cover()\a   assets\\scss\\style.scss 95:4  root stylesheet";
+}
