@@ -92,7 +92,7 @@ p{
     @include font(400);
 }
 .cover{
-   @include cover() ;
+   @include cover(100%) ;
    position: relative;
 }
 .cover img {

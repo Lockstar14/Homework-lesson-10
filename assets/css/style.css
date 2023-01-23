@@ -1,21 +1,150 @@
-/* Error: Missing argument $height.
- *     ,
- * 28  | @mixin cover($height) {
- *     |        ============== declaration
- * ... |
- * 95  |    @include cover() ;
- *     |    ^^^^^^^^^^^^^^^^ invocation
- *     '
- *   assets\scss\style.scss 95:4  cover()
- *   assets\scss\style.scss 95:4  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Missing argument $height.\a     \2577 \a 28  \2502  @mixin cover($height) {\d\a     \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a... \2502 \a 95  \2502     @include cover() ;\d\a     \2502     ^^^^^^^^^^^^^^^^ invocation\a     \2575 \a   assets\\scss\\style.scss 95:4  cover()\a   assets\\scss\\style.scss 95:4  root stylesheet";
+body {
+  margin: 0;
 }
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+input[type=text] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+body {
+  background-color: #F7F7F7;
+}
+
+form {
+  background-color: #FFFFFF;
+  padding: 15px 20px 25px 20px;
+  border: 1px solid #E3E3E3;
+  border-radius: 8px;
+}
+
+input[type=text] {
+  width: 100%;
+  border: 1px solid #E3E3E3;
+  border-radius: 6px;
+  padding: 7px 11px;
+  font-family: "Montserrat";
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.btn {
+  width: 100%;
+  border: 1px solid #FF3D00;
+  color: #FF3D00;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.btn.second {
+  width: 100%;
+  border: 1px solid #0085FF;
+  color: #0085FF;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FF3D00;
+  color: #FFFFFF;
+}
+
+.btn.second:hover {
+  background-color: #0085FF;
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.cover {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cover.rectangle {
+  width: 100%;
+  padding-top: 64.4567219153%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
