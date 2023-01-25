@@ -37,19 +37,19 @@ input[type=text] {
 }
 
 body {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 form {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 15px 20px 25px 20px;
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
   border-radius: 8px;
 }
 
 input[type=text] {
   width: 100%;
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
   border-radius: 6px;
   padding: 7px 11px;
   font-family: "Montserrat";
@@ -60,8 +60,8 @@ input[type=text] {
 
 .btn {
   width: 100%;
-  border: 1px solid #FF3D00;
-  color: #FF3D00;
+  border: 1px solid #ff3d00;
+  color: #ff3d00;
   border-radius: 5px;
   padding: 10px 0;
   font-size: 14px;
@@ -74,8 +74,8 @@ input[type=text] {
 
 .btn.second {
   width: 100%;
-  border: 1px solid #0085FF;
-  color: #0085FF;
+  border: 1px solid #0085ff;
+  color: #0085ff;
   border-radius: 5px;
   padding: 10px 0;
   font-size: 14px;
@@ -87,16 +87,19 @@ input[type=text] {
 }
 
 .btn:hover {
-  background-color: #FF3D00;
-  color: #FFFFFF;
+  background-color: #ff3d00;
+  color: #ffffff;
 }
 
 .btn.second:hover {
-  background-color: #0085FF;
-  color: #FFFFFF;
+  background-color: #0085ff;
+  color: #ffffff;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Montserrat";
   font-weight: 900;
 }
@@ -167,7 +170,7 @@ header h1 {
   transition: 0.5s;
 }
 header h1.active {
-  color: #EF5DA8;
+  color: #ef5da8;
 }
 header h1:hover {
   color: #ff3d00;
@@ -189,9 +192,9 @@ header svg:hover {
 
 .about-text {
   width: 543px;
-  background-color: #0085FF;
+  background-color: #0085ff;
   height: 350px;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 8px;
 }
 
@@ -209,6 +212,67 @@ header svg:hover {
   font-weight: 900;
   font-size: 20px;
   line-height: 24px;
+}
+
+.cards {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+}
+.cards .card {
+  width: 18.1818181818%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-right: 27px;
+}
+.cards .card .card-container {
+  padding: 9.5px;
+}
+.cards .card h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.cards .card p {
+  margin-top: 14px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.cards .card .card-time {
+  margin-top: 20px;
+  color: #6a6a6a;
+  font-size: 10px;
+  height: 25px;
+}
+.cards .card .btn {
+  margin-bottom: 10px;
+  width: 176px;
+  width: 100%;
+  border: 1px solid #0085ff;
+  color: #0085ff;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.cards .card .btn:hover {
+  background-color: #0085ff;
+  color: white;
+  transition: 0.4ms;
+}
+.cards .pc {
+  width: 200px;
+  height: 184px;
+  background: url(../img/PCincard.png) center no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
